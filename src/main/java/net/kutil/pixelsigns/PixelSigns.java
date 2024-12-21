@@ -78,6 +78,35 @@ public class PixelSigns
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_A15.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_A16.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_A17.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B1.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B2.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B3.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B4.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B5.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B6.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B7.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B8.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B9.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B10.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B11.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B12.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B13.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B14.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B15.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B16.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B17.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B18.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B19.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B20.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B21.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B22.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B23.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B24.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B25.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B26.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B27.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B28.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_B29.get(), RenderType.getCutout());
     }
 
     // You can use SubscribeEvent to automatically register all static methods to be called on the EventBus

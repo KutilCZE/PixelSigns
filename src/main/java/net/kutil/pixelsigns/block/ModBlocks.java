@@ -39,6 +39,35 @@ public class ModBlocks {
     public static final RegistryObject<Block> TRAFFIC_SIGN_A15 = registerBlock("traffic_sign_a15", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_A16 = registerBlock("traffic_sign_a16", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_A17 = registerBlock("traffic_sign_a17", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B1 = registerBlock("traffic_sign_b1", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B2 = registerBlock("traffic_sign_b2", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B3 = registerBlock("traffic_sign_b3", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B4 = registerBlock("traffic_sign_b4", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B5 = registerBlock("traffic_sign_b5", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B6 = registerBlock("traffic_sign_b6", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B7 = registerBlock("traffic_sign_b7", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B8 = registerBlock("traffic_sign_b8", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B9 = registerBlock("traffic_sign_b9", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B10 = registerBlock("traffic_sign_b10", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B11 = registerBlock("traffic_sign_b11", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B12 = registerBlock("traffic_sign_b12", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B13 = registerBlock("traffic_sign_b13", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B14 = registerBlock("traffic_sign_b14", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B15 = registerBlock("traffic_sign_b15", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B16 = registerBlock("traffic_sign_b16", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B17 = registerBlock("traffic_sign_b17", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B18 = registerBlock("traffic_sign_b18", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B19 = registerBlock("traffic_sign_b19", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B20 = registerBlock("traffic_sign_b20", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B21 = registerBlock("traffic_sign_b21", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B22 = registerBlock("traffic_sign_b22", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B23 = registerBlock("traffic_sign_b23", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B24 = registerBlock("traffic_sign_b24", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B25 = registerBlock("traffic_sign_b25", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B26 = registerBlock("traffic_sign_b26", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B27 = registerBlock("traffic_sign_b27", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B28 = registerBlock("traffic_sign_b28", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_B29 = registerBlock("traffic_sign_b29", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
