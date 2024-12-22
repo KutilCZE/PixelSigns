@@ -23,7 +23,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TRAFFIC_COLUMN = registerBlock("traffic_column", () -> new TrafficColumnBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     public static final RegistryObject<Block> TRAFFIC_SIGN_A1 = registerBlock("traffic_sign_a1", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
-    public static final RegistryObject<Block> TRAFFIC_SIGN_A2 = registerBlock("traffic_sign_a2", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_A2 = registerBlock("traffic_sign_a2", () -> new YieldSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_A3 = registerBlock("traffic_sign_a3", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_A4 = registerBlock("traffic_sign_a4", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_A5 = registerBlock("traffic_sign_a5", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
@@ -68,6 +68,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> TRAFFIC_SIGN_B27 = registerBlock("traffic_sign_b27", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_B28 = registerBlock("traffic_sign_b28", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_B29 = registerBlock("traffic_sign_b29", () -> new TrafficSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C1 = registerBlock("traffic_sign_c1", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C2 = registerBlock("traffic_sign_c2", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C3 = registerBlock("traffic_sign_c3", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C4 = registerBlock("traffic_sign_c4", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C5 = registerBlock("traffic_sign_c5", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C6 = registerBlock("traffic_sign_c6", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C7 = registerBlock("traffic_sign_c7", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C8 = registerBlock("traffic_sign_c8", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C9 = registerBlock("traffic_sign_c9", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C10 = registerBlock("traffic_sign_c10", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C11 = registerBlock("traffic_sign_c11", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C12 = registerBlock("traffic_sign_c12", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C13 = registerBlock("traffic_sign_c13", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C14 = registerBlock("traffic_sign_c14", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_C15 = registerBlock("traffic_sign_c15", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
