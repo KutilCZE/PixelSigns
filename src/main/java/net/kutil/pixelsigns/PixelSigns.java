@@ -137,6 +137,7 @@ public class PixelSigns
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_C28.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_C29.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_C30.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D1.get(), RenderType.getCutout());
     }
 
     // You can use SubscribeEvent to automatically register all static methods to be called on the EventBus

@@ -98,7 +98,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TRAFFIC_SIGN_C28 = registerBlock("traffic_sign_c28", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_C29 = registerBlock("traffic_sign_c29", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_C30 = registerBlock("traffic_sign_c30", () -> new RoundSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
-
+    public static final RegistryObject<Block> TRAFFIC_SIGN_D1 = registerBlock("traffic_sign_d1", () -> new RhombusSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
