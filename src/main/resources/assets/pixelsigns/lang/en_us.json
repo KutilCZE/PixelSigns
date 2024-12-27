@@ -78,5 +78,7 @@
   "block.pixelsigns.traffic_sign_c29": "Traffic Sign",
   "block.pixelsigns.traffic_sign_c30": "Traffic Sign",
   "block.pixelsigns.traffic_sign_d1": "Traffic Sign",
+  "block.pixelsigns.traffic_sign_d2": "Traffic Sign",
+  "block.pixelsigns.traffic_sign_d3": "Traffic Sign",
   "itemGroup.pixelSignsTab": "Pixel Signs"
 }
