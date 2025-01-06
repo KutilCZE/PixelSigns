@@ -101,6 +101,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> TRAFFIC_SIGN_D1 = registerBlock("traffic_sign_d1", () -> new RhombusSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_D2 = registerBlock("traffic_sign_d2", () -> new RhombusSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_D3 = registerBlock("traffic_sign_d3", () -> new StopSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_D12 = registerBlock("traffic_sign_d12", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_D13 = registerBlock("traffic_sign_d13", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_D14 = registerBlock("traffic_sign_d14", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_D15 = registerBlock("traffic_sign_d15", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_D16 = registerBlock("traffic_sign_d16", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

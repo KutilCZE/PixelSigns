@@ -140,6 +140,11 @@ public class PixelSigns
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D1.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D2.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D3.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D12.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D13.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D14.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D15.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_D16.get(), RenderType.getCutout());
 
     }
 
