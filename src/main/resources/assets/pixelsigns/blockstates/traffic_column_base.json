@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pixelsigns:block/traffic_column_base" },
+    "facing=south": { "model": "pixelsigns:block/traffic_column_base", "y": 180 },
+    "facing=west": { "model": "pixelsigns:block/traffic_column_base", "y": 270 },
+    "facing=east": { "model": "pixelsigns:block/traffic_column_base", "y": 90 }
+  }
+}

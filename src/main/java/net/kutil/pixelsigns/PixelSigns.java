@@ -61,6 +61,7 @@ public class PixelSigns
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_COLUMN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_COLUMN_BASE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_A1.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_A2.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.TRAFFIC_SIGN_A3.get(), RenderType.getCutout());
