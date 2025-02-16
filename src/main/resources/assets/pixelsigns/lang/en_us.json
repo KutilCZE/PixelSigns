@@ -1,5 +1,6 @@
 {
   "item.pixelsigns.spray": "Spray",
+  "block.pixelsigns.sidewalk_gray": "Sidewalk",
   "block.pixelsigns.traffic_column": "Traffic Column",
   "block.pixelsigns.traffic_column_base": "Traffic Column",
   "block.pixelsigns.traffic_sign_a1": "Traffic Sign",
@@ -81,6 +82,7 @@
   "block.pixelsigns.traffic_sign_d1": "Traffic Sign",
   "block.pixelsigns.traffic_sign_d2": "Traffic Sign",
   "block.pixelsigns.traffic_sign_d3": "Traffic Sign",
+  "block.pixelsigns.traffic_sign_d4": "Traffic Sign",
   "block.pixelsigns.traffic_sign_d12": "Traffic Sign",
   "block.pixelsigns.traffic_sign_d13": "Traffic Sign",
   "block.pixelsigns.traffic_sign_d14": "Traffic Sign",

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pixelsigns:block/sidewalk_gray" },
+    "facing=south": { "model": "pixelsigns:block/sidewalk_gray", "y": 180 },
+    "facing=west": { "model": "pixelsigns:block/sidewalk_gray", "y": 270 },
+    "facing=east": { "model": "pixelsigns:block/sidewalk_gray", "y": 90 }
+  }
+}

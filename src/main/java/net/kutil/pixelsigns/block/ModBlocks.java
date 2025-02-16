@@ -20,6 +20,8 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, PixelSigns.MOD_ID);
 
+    public static final RegistryObject<Block> SIDEWALK_GRAY = registerBlock("sidewalk_gray", () -> new SidewalkBlock(AbstractBlock.Properties.create(Material.EARTH).notSolid()));
+
     public static final RegistryObject<Block> TRAFFIC_COLUMN = registerBlock("traffic_column", () -> new TrafficColumnBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_COLUMN_BASE = registerBlock("traffic_column_base", () -> new MediumColumnBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
 
@@ -102,6 +104,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TRAFFIC_SIGN_D1 = registerBlock("traffic_sign_d1", () -> new RhombusSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_D2 = registerBlock("traffic_sign_d2", () -> new RhombusSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_D3 = registerBlock("traffic_sign_d3", () -> new StopSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
+    public static final RegistryObject<Block> TRAFFIC_SIGN_D4 = registerBlock("traffic_sign_d4", () -> new XSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_D12 = registerBlock("traffic_sign_d12", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_D13 = registerBlock("traffic_sign_d13", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
     public static final RegistryObject<Block> TRAFFIC_SIGN_D14 = registerBlock("traffic_sign_d14", () -> new RectangleSignBlock(AbstractBlock.Properties.create(Material.IRON).notSolid()));
